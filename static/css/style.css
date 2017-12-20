@@ -1,5 +1,5 @@
 body {
-  background: url("https://images.unsplash.com/photo-1474917299080-1371d7175b62?auto=format&fit=crop&w=1950&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") no-repeat center center fixed;
+  background: url("/static/images/polybg.png") no-repeat left center fixed;
   background-size: cover;
 }
 
