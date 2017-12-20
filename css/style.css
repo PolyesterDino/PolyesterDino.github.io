@@ -1,0 +1,112 @@
+body {
+  background: url("https://images.unsplash.com/photo-1474917299080-1371d7175b62?auto=format&fit=crop&w=1950&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.wrapper {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.wrapper .social-links {
+  list-style: none;
+  list-style-position: outside;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper .social-links li {
+  padding: 12px;
+  marging: 12px;
+}
+.wrapper .social-links svg {
+  height: 24px;
+  width: 24px;
+  fill: rgba(255, 255, 255, 0.5);
+}
+
+.subscribe .button {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-radius: 2px;
+  color: black;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "San Francisco", "helvetica", sans serif;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.social-links {
+  -webkit-animation: links-enter 1250ms ease-out 500ms forwards;
+          animation: links-enter 1250ms ease-out 500ms forwards;
+  opacity: 0;
+}
+.social-links a:hover.button {
+  background-color: white;
+}
+.social-links a:hover svg {
+  fill: white;
+}
+.social-links .apple-music svg {
+  -webkit-transition: fill 750ms ease-out;
+  transition: fill 750ms ease-out;
+}
+.social-links .apple-music a:active svg, .social-links .apple-music a:focus svg {
+  fill: #EB3256;
+}
+.social-links .twitter svg {
+  -webkit-transition: fill 750ms ease-out;
+  transition: fill 750ms ease-out;
+}
+.social-links .twitter a:active svg, .social-links .twitter a:focus svg {
+  fill: #1da1f2;
+}
+.social-links .instagram svg {
+  -webkit-transition: fill 750ms ease-out;
+  transition: fill 750ms ease-out;
+}
+.social-links .instagram a:active svg, .social-links .instagram a:focus svg {
+  fill: #E4405f;
+}
+.social-links .youtube svg {
+  -webkit-transition: fill 750ms ease-out;
+  transition: fill 750ms ease-out;
+}
+.social-links .youtube a:active svg, .social-links .youtube a:focus svg {
+  fill: #ff0000;
+}
+.social-links .subscribe .button {
+  -webkit-transition: background-color 750ms ease-out;
+  transition: background-color 750ms ease-out;
+}
+.social-links .subscribe .button:active, .social-links .subscribe .button:focus {
+  background-color: #5F5FFC;
+  color: white;
+}
+
+@-webkit-keyframes links-enter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes links-enter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
