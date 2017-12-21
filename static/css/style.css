@@ -3,7 +3,50 @@ body {
   background-size: cover;
 }
 
-.wrapper {
+.logo-wrapper {
+  position: fixed;
+  right: 10%;
+  bottom: 20%;
+  width: 420px;
+  svg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.logo-wrapper .cta {
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo-wrapper .cta span {
+  font-family: "San Francisco", "helvetica", sans serif;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+.logo-wrapper .cta svg {
+  height: 24px;
+  width: 24px;
+  fill: rgba(255, 255, 255, 0.5);
+  margin-left: 12px;
+}
+
+.logo-wrapper .cta a:hover svg {
+  fill: white;
+}
+.logo-wrapper .cta .twitter svg {
+  -webkit-transition: fill 750ms ease-out;
+  transition: fill 750ms ease-out;
+}
+.logo-wrapper .cta .twitter a:active svg, .social-links .twitter a:focus svg {
+  fill: #1da1f2;
+}
+
+/***OLD LIST CODE***/
+/*.wrapper {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -109,4 +152,4 @@ body {
   100% {
     opacity: 1;
   }
-}
+}*/
