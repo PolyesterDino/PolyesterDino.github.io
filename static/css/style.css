@@ -7,8 +7,6 @@ body {
   position: fixed;
   right: 10%;
   bottom: 20%;
-  max-width: 600px;
-  min-width: 420px;
   svg {
     width: 100%;
     height: auto;
@@ -44,6 +42,19 @@ body {
 }
 .logo-wrapper .cta .twitter a:active svg, .social-links .twitter a:focus svg {
   fill: #1da1f2;
+}
+
+/*Media Query*/
+@media screen and (min-width: 1441px) {
+  .logo-wrapper {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .logo-wrapper {
+    width: 420px;
+  }
 }
 
 /***OLD LIST CODE***/
