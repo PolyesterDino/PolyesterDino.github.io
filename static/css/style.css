@@ -69,10 +69,10 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
   .logo-wrapper {
-    width: 220px;
+    width: 320px;
   }
   .logo-wrapper .cta span {
-    font-size: 14px;
+    font-size: 20px;
   }
 }
 
