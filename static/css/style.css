@@ -65,7 +65,8 @@
 }
 
 .dino-tour-life {
-  background: #000;
+  background-color: #000;
+  font-color: white;
   left: 0;
   position: fixed;
   top: 0;
