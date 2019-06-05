@@ -65,17 +65,20 @@
 }
 
 .dino-tour-life {
-  background-color: #000;
-  font-color: white;
+  background: url("/static/images/grass.png") no-repeat 0 0 fixed;
   left: 0;
   position: fixed;
   top: 0;
   width: 100%;
   height: 100%;
   background-size: cover;
+  font-color: #ffffff;
 }
 
 #tour-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   li {
     list-style: none;
     margin: 0;
