@@ -78,31 +78,34 @@
 .dino-tour-title {
   text-align: center;
   h1 {
-    font-color: #F3B3FF;
+    color: #F3B3FF;
   }
   h2 {
-    font-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
   }
 }
 
 #tour-list {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
+  list-style: none;
   li {
-    list-style: none;
     padding: 18px;
     font-size: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }
 
 .tour-li-date {
-  font-color: #00FFC2;
+  color: #00FFC2;
   font-weight: semibold;
 }
 
 .tour-li-place {
-  font-color: #F3B3FF;
+  color: #F3B3FF;
   font-weight: semibold;
 }
 
