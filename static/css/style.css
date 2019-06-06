@@ -91,15 +91,15 @@
   justify-content: space-evenly;
   padding: 18px;
   font-size: 28px;
-  div {
-    .tour-link {
-      padding: 8px;
-      display: flex;
-      justify-content: space-evenly;
-      text-align: left;
-      color: white;
-    }
-  }
+}
+
+.tour-link {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
 }
 
 .tour-li-date {
