@@ -91,16 +91,17 @@
   justify-content: space-evenly;
   padding: 18px;
   font-size: 28px;
+  a {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+  }
 }
 
-.tour-link {
-  padding: 8px;
-  display: flex;
-  justify-content: space-between;
-  text-align: left;
-  color: #fff;
-  text-decoration: none;
-}
+
 
 .tour-li-date {
   color: #00FFC2;
