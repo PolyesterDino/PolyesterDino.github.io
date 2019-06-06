@@ -92,6 +92,9 @@ body {
 .dino-tour-title {
   text-align: center;
   letter-spacing: 0.05em;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px;
 }
 
 .logo-top {
@@ -102,8 +105,8 @@ body {
   border-style: none;
   width: 400px;
 }
-.dino-tour-title h2 {
-  color: rgba(255, 255, 255, 0.5);
+.dino-tour-title span {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .dino-tour-title a {
@@ -197,5 +200,13 @@ body {
   }
   .tour-li-place {
     width: auto;
+  }
+
+  .dino-tour-title {
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 12px;
   }
 }
