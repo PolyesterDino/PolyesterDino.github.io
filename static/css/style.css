@@ -76,6 +76,16 @@
   font-family: "SF Hello", "San Francisco", sans-serif;
 }
 
+.dino-tour-title {
+  text-align: center;
+  h1 {
+    font-color: #F3B3FF;
+  }
+  h2 {
+    font-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
 #tour-list {
   li {
     list-style: none;
