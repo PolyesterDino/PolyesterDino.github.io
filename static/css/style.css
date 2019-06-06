@@ -91,7 +91,7 @@
   justify-content: space-evenly;
   padding: 18px;
   font-size: 28px;
-  a {
+  a .tour-link{
     padding: 8px;
     display: flex;
     justify-content: space-between;
@@ -100,8 +100,6 @@
     text-decoration: none;
   }
 }
-
-
 
 .tour-li-date {
   color: #00FFC2;
