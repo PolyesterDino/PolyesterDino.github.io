@@ -86,13 +86,13 @@
 }
 
 #tour-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   li {
     list-style: none;
     padding: 18px;
     font-size: 48px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
   }
 }
 
