@@ -84,15 +84,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-      .tour-li-date {
-        font-color: #00FFC2;
-        font-weight: semibold;
-      }
-      .tour-li-place {
-        font-color: #F3B3FF;
-        font-weight: semibold;
-    }
   }
+}
+
+.tour-li-date {
+  font-color: #00FFC2;
+  font-weight: semibold;
+}
+
+.tour-li-place {
+  font-color: #F3B3FF;
+  font-weight: semibold;
 }
 
 /*Media Query*/
