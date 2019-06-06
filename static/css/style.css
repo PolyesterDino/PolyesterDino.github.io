@@ -87,7 +87,10 @@
 
 #tour-list {
   list-style: none;
-  li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  div {
     list-style: none;
     display: flex;
     .tour-link {
