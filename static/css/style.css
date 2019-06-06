@@ -63,8 +63,8 @@ body {
 }
 
 .cta a:hover {
-  background: white;
-  color: black;
+  background: #7B02FF;
+  color: white;
 }
 
 .cta svg {
@@ -93,9 +93,9 @@ body {
   text-align: center;
 }
 
-.dino-tour-title h1 {
-  margin-top: 0;
-  color: #F3B3FF;
+.logo-top {
+  margin-top: 4vh;
+  padding: 30px;
 }
 .dino-tour-title h2 {
   color: rgba(255, 255, 255, 0.5);
@@ -144,7 +144,15 @@ body {
     justify-content: flex-end;
     padding-right: 7vw;
   }
-
+  .logo-top {
+    margin-top: 4vh;
+    margin-left: auto;
+    color: #F3B3FF;
+    max-width: 33%;
+    margin-right: 33%;
+    padding: 30px;
+  }
+  
   .logo-wrapper {
     max-width: none;
     padding: 12px 0;
