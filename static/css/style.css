@@ -65,7 +65,7 @@
 }
 
 .dino-tour-life {
-  /* background: url("/static/images/grass.png") no-repeat 0 0 fixed; */
+  background: url("/static/images/grass.png") no-repeat 0 0 fixed;
   left: 0;
   position: fixed;
   top: 0;
