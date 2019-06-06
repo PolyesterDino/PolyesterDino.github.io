@@ -91,14 +91,30 @@ body {
 
 .dino-tour-title {
   text-align: center;
+  letter-spacing: 0.05em;
 }
 
 .logo-top {
-  margin-top: 4vh;
-  padding: 30px;
+  margin-left: 0;
+}
+
+.logo-top img {
+  border-style: none;
+  width: 400px;
 }
 .dino-tour-title h2 {
   color: rgba(255, 255, 255, 0.5);
+}
+
+.dino-tour-title a {
+  text-decoration: none;
+  color: #00FFC2;
+  font-weight: 600;
+}
+
+.dino-tour-title a:hover {
+  text-decoration: none;
+  color: #F3B3FF;
 }
 
 #tour-list {
@@ -122,6 +138,10 @@ body {
   width: 100%;
 }
 
+.tour-item:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .tour-li-date {
   color: #00FFC2;
   font-weight: 600;
@@ -139,18 +159,16 @@ body {
   width: 60%;
 }
 
+
 @media screen and (min-width: 767px) {
   .dino {
     justify-content: flex-end;
     padding-right: 7vw;
   }
-  .logo-top {
-    margin-top: 4vh;
-    margin-left: auto;
-    color: #F3B3FF;
-    max-width: 33%;
-    margin-right: 33%;
-    padding: 30px;
+  .logo-top img {
+    border-style: none;
+    width: 75%;
+    min-width: 500px;
   }
 
   .logo-wrapper {
