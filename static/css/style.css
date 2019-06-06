@@ -93,18 +93,22 @@
   font-size: 28px;
 }
 
-.tour-link{
+.tour-item {
   padding: 8px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   text-align: left;
-  color: #fff;
   text-decoration: none;
 }
 
 .tour-li-date {
   color: #00FFC2;
   font-weight: semibold;
+}
+
+.tour-li-venue {
+  color: #ffffff;
 }
 
 .tour-li-place {
