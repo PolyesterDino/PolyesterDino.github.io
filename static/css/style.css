@@ -73,6 +73,7 @@
   height: 100%;
   background-size: cover;
   font-color: #ffffff;
+  font-family: "SF Hello", "San Francisco", sans-serif;
 }
 
 #tour-list {
@@ -80,13 +81,21 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    font-size: 100%;
+    font-size: 48px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
   div {
     float: left;
+    .tour-li-date {
+      font-color: #00FFC2;
+      font-weight: semibold;
+    }
+    .tour-li-place {
+      font-color: #F3B3FF;
+      font-weight: semibold;
+    }
   }
 }
 
