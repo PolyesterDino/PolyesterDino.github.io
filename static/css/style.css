@@ -160,6 +160,86 @@ body {
   font-weight: 600;
   width: 60%;
 }
+  #merch-list {
+     display: flex;
+  flex-flow: row wrap;
+  padding: 18px;
+  font-size: 26px;
+  margin: 0 auto;
+  max-width: 1410px;
+  }
+  
+  .merch-item {
+  padding: 20px 8px 8px 8px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  margin: 10px 5px 10px 5px;
+  width: 100%;
+  }
+  
+  .merch-item:hover, .merch-item:active {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+    .merch-li-title {
+
+  color: white;
+  }
+  
+    .footer {
+  padding: 50px 8px 50px 8px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2px;
+  margin: 10px 5px 10px 5px;
+  width: 100%;
+  }
+
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+  /* Default to hidden */
+  display: none;
+
+  /* Overlay entire screen */
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  /* A bit of padding around image */
+  padding: 1em;
+
+  /* Translucent background */
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Unhide the lightbox when it's the target */
+.lightbox:target {
+  display: block;
+}
+
+.lightbox span {
+  /* Full width and height */
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  /* Size and position background image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 
 
 @media screen and (min-width: 767px) {
@@ -199,6 +279,19 @@ body {
   }
   .tour-li-place {
     width: auto;
+  }
+  #merch-list {
+    font-size: 28px;
+  }
+  
+  .merch-item {
+    width: auto;
+    height: auto;
+  }
+  
+    .merch-li-title {
+    display: block;
+    width: 310px;
   }
 
   .dino-tour-title {
