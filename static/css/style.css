@@ -302,7 +302,7 @@ body {
   }
   
   .page-tour {
-  background: #000 url("images/grass.png") no-repeat 0 0 fixed / bottom left;
+  background: #000 url("images/grass_mobile.png") no-repeat 0 0 fixed / bottom left;
   width: 100%;
   }
 }
