@@ -300,4 +300,9 @@ body {
     font-size: 28px;
     font-weight: 600;
   }
+  
+  .page-tour {
+  background: #000 url("images/grass.png") no-repeat 0 0 fixed / bottom left;
+  width: 100%;
+  }
 }
