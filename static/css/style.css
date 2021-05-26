@@ -15,7 +15,7 @@ body {
 }
 
 .page-tour {
-  background: #000 url("/static/images/grass.png") no-repeat 0 0 fixed / cover;
+  background: #000 url("/static/images/grassbg.png") no-repeat 0 0 fixed / cover;
 }
 
 .dino {
@@ -301,8 +301,4 @@ body {
     font-weight: 600;
   }
   
-  .page-tour {
-  background: #000 url("images/grass_mobile.png") no-repeat 0 0 fixed / bottom left;
-  width: 100%;
-  }
 }
