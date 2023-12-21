@@ -11,7 +11,7 @@ body {
 }
 
 .page-home {
-  background: #000 url("/static/images/polybg.png") no-repeat 0 0 fixed / cover;
+  background: #000 url("/static/images/polybg.png");
 }
 
 .page-tour {
