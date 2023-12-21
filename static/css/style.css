@@ -15,7 +15,7 @@ body {
 }
 
 .page-tour {
-  background: #000 url("/static/images/grassbg.png") no-repeat 0 0 fixed / cover;
+  background: #000 url("/static/images/grassbg.png");
 }
 
 .dino {
